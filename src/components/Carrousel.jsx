@@ -7,7 +7,6 @@ const Carrousel = () => {
       >
         <div className="carousel h-full">
           <div className="carousel-body opacity-0 h-full">
-            {/* <!-- Slide 1 --> */}
             <div className="carousel-slide h-full">
               <div className="flex h-full justify-center">
                 <img
@@ -17,7 +16,6 @@ const Carrousel = () => {
                 />
               </div>
             </div>
-            {/* <!-- Slide 2 --> */}
             <div className="carousel-slide h-full">
               <div className="flex h-full justify-center">
                 <img
@@ -27,7 +25,6 @@ const Carrousel = () => {
                 />
               </div>
             </div>
-            {/* <!-- Slide 3 --> */}
             <div className="carousel-slide h-full">
               <div className="flex h-full justify-center">
                 <img
