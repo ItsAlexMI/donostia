@@ -25,6 +25,7 @@ const Carrousel = () => {
                 />
               </div>
             </div>
+
             <div className="carousel-slide h-full">
               <div className="flex h-full justify-center">
                 <img
