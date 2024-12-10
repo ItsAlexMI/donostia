@@ -1,39 +1,38 @@
 import BioCard from "../components/BioCard";
 import Timeline from "../components/Timeline";
-import radoksiiiBg from "../assets/images/radoksiiibg.png";
-import radokBeach from "../assets/images/radokplaya1.png";
-import zuriola from "../assets/images/zuriola.png";
-import rad3 from "../assets/images/rad3.png";
+import MoremnbBg from "../assets/images/moremnb.png";
+import moremnbPlaya from "../assets/images/moremnbPlaya.png";
 import Footer from "../components/Footer";  
+import Kale from "../assets/images/Kale.png";
+import Urumea from "../assets/images/Urumea.png";
 
-const Radoksiii = () => {
+const Moremnb = () => {
   const timelineData = [
     {
-      date: "La concha beach",
-      title: "Place 1: La Concha Beach",
+      date: "Donostiako portua",
+      title: "Place 1: Donostiako portua  ",
       description:
-        "La Concha Beach is a beach located in the La Concha bay of the city of San Sebastián.",
-      image: radokBeach,
+        "Port of Donostia It is located at the eastern end of La Concha Bay, at the foot of the statue of the Sacred Heart that crowns Mount Urgull.",
+      image: moremnbPlaya,
       iconColor: "text-primary",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11611.39703896717!2d-2.001690183585733!3d43.31741488791714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51baa91847a353%3A0x2cdefc6d7978bef3!2sPlaya%20de%20la%20Concha!5e0!3m2!1ses-419!2sni!4v1733100475499!5m2!1ses-419!2sni",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1451.3149614988372!2d-1.9872125305559842!3d43.3220059515743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a50a840a7295%3A0xe7332395057b062d!2sPuerto%20de%20San%20Sebasti%C3%A1n!5e0!3m2!1ses-419!2sni!4v1733165908253!5m2!1ses-419!2sni" ,
 
     },
     {
-      date: "Zurriola",
-      title: "Place 2: Zurriola",
+      date: "Kale Nagusia Kalea",
+      title: "Place 2: Kale Nagusia Kalea",
       description:
-        "Zurriola Beach is one of the three beaches in the city of San Sebastián. It is located between the mouth of the Urumea River and Mount Ulía.",
-      image: zuriola,
+        "One of the streets of the old town of Villabona. It is characterized by being an industrial town, it also has great commercial and hospitality activity.",
+      image: Kale,
       iconColor: "text-success",
       mapUrl:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5804.881054949072!2d-1.9828812040517108!3d43.325969984477815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a545ed2e1be9%3A0xa635d76ac3894843!2sPlaya%20de%20Zurriola!5e0!3m2!1ses-419!2sni!4v1733101242367!5m2!1ses-419!2sni",
-    },
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6166.350595349779!2d-2.0730580680994923!3d43.16479392794663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51b4a862e9a0bb%3A0x39f12284dcc43a4d!2sKale%20Nagusia%20Kalea%2C%2020270%2C%20Gipuzkoa%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sni!4v1733166550987!5m2!1ses-419!2sni"    },
     {
-      date: "Random Place",
-      title: "Place 3: Donostia",
+      date: "Urumea ibaia",
+      title: "Place 3: Urumea ibaia",
       description:
-        "This city combines colonial and modern architecture, offering a fascinating tour of its history and culture.",
-      image: rad3,
+        "TThe Urumea is a river in the north of the Iberian Peninsula that runs through Spain. It rises in Navarra and empties into the Cantabrian Sea in San Sebastián .",
+      image: Urumea,
       iconColor: "text-warning",
       mapUrl:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5804.881054949072!2d-1.9828812040517108!3d43.325969984477815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a545ed2e1be9%3A0xa635d76ac3894843!2sPlaya%20de%20Zurriola!5e0!3m2!1ses-419!2sni!4v1733101242367!5m2!1ses-419!2sni",
@@ -51,12 +50,12 @@ const Radoksiii = () => {
   return (
     <div className="bg-white overflow-hidden">
       <BioCard
-      bgColor="bg-green-100"
-      igColor="text-green-300"
-        imageSrc={radoksiiiBg}
-        title="Rada's Biography 🇺🇦"
+        imageSrc={MoremnbBg}
+        bgColor="bg-cyan-100"
+        igColor="text-cyan-300"
+        title="Fio's Biography 🦋"
         text={bioText}
-        instagramUrl="https://www.instagram.com/radoksiii"
+        instagramUrl="https://www.instagram.com/_moremnb_"
       />
       <h2 className="text-3xl font-bold mb-4 text-gray-800 container mx-auto px-4 py-6 text-center">
       📍 My Favorite Places
@@ -67,4 +66,4 @@ const Radoksiii = () => {
   );
 };
 
-export default Radoksiii;
+export default Moremnb;

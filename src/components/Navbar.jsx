@@ -44,10 +44,10 @@
                 Hasi
               </Link>
             </li>
-            <li>
+            {/* <li>
               
               <Link
-                to="/about"
+                to="/moremnb"
                 className="px-3 py-2 rounded-md hover:rounded-full bg-gray-50 text-gray-700 hover:bg-gray-200 hover:text-gray-900 text-md" 
               >
                   <Instagram className='text-violet-400'/>
@@ -62,7 +62,7 @@
                 <Instagram className='text-purple-400'/>
                 sharys_paolab
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="/radoksiii"

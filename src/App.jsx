@@ -5,9 +5,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
+// import Moremnb from './pages/Moremnb';
+
 import Radoksiii from './pages/Radoksiii';
+import { More } from '@mui/icons-material';
 const App = () => {
   return (
     <Router>
@@ -17,8 +18,7 @@ const App = () => {
           <Routes>
     
             <Route path="/" element={<Home />}  />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/Moremnb" element={<Moremnb />} /> */}
             <Route path="/radoksiii" element={<Radoksiii />} />
           </Routes>
         </main>

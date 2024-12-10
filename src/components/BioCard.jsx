@@ -1,8 +1,8 @@
 import Instagram from '@mui/icons-material/Instagram';
 
-const BioCard = ({ imageSrc, title, text, instagramUrl }) => {
+const BioCard = ({ imageSrc, title, text, instagramUrl, bgColor, igColor }) => {
     return (
-        <div className="relative w-full bg-green-100 py-8 px-4">
+        <div className={`relative w-full ${bgColor} py-8 px-4`}>
 
             <div className="card sm:card-side max-w-full mx-auto flex flex-col sm:flex-row items-start bg-white bg-opacity-80 shadow-lg rounded-lg overflow-hidden mx-5">
 
@@ -17,7 +17,7 @@ const BioCard = ({ imageSrc, title, text, instagramUrl }) => {
 
                     <div className="w-full  text-center ml-2 py-4" style={{ marginTop: '-40px' }}>
 
-                        <Instagram className='text-green-300 mt-0' style={{ fontSize: '25px' }}/>
+                        <Instagram className={`${igColor} mt-0`} style={{ fontSize: '25px' }}/>
                         <a href={instagramUrl} 
                            target="_blank" 
                            rel="noopener noreferrer" 
